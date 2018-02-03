@@ -1,5 +1,5 @@
 {
-  "name": "heroku-mean-angular2",
+  "name": "mean-contactlist-angular2",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -13,22 +13,22 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "1.6.5",
-    "@angular/compiler-cli": "^5.2.0",
-    "@angular/language-service": "^5.2.0",
     "@angular/animations": "^5.2.0",
+    "@angular/cli": "^1.6.7",
     "@angular/common": "^5.2.0",
     "@angular/compiler": "^5.2.0",
+    "@angular/compiler-cli": "^5.2.3",
     "@angular/core": "^5.2.0",
     "@angular/forms": "^5.2.0",
     "@angular/http": "^5.2.0",
+    "@angular/language-service": "^5.2.3",
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "body-parser": "^1.18.2",
     "core-js": "^2.4.1",
     "express": "^4.16.2",
-    "mongodb": "^3.0.2",
+    "mongodb": "^2.2.34",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
