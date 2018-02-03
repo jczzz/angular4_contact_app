@@ -7,7 +7,7 @@ import { ContactDetailsComponent } from '../contact-details/contact-details.comp
 
 
 @Component({
-  selector: 'app-contact-list',
+  selector: 'contact-list',
   templateUrl: './contact-list.component.html',
   styleUrls: ['./contact-list.component.css'],
   providers: [ContactService]

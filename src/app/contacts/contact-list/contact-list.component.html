@@ -27,12 +27,12 @@
     The contact-details template allows users to 
     create(post), view(get）, modify（update), and delete(del) 
     contacts from the contact list -->
-    <app-contact-details
+    <contact-details
       [contact]="selectedContact"
       [createHandler]="addContact"
       [updateHandler]="updateContact"
       [deleteHandler]="deleteContact">
-   </app-contact-details>   <!--核心！用 [属性绑定]  将父组件内的变量属性和方法 绑定到 子组件内的属性和方法（input 外部属性）
+   </contact-details>   <!--核心！用 [属性绑定]  将父组件内的变量属性和方法 绑定到 子组件内的属性和方法（input 外部属性）
                         从而导致 父组件内属性随着子组件变更而变更  -->
   </div>
 </div>

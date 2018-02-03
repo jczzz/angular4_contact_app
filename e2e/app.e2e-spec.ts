@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('heroku-mean-angular2 App', () => {
+describe('mean-contactlist-angular2 App', () => {
   let page: AppPage;
 
   beforeEach(() => {
