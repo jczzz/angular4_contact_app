@@ -24,7 +24,7 @@ app.use(express.static(distDir));
 
 // Connect to the database before starting the application server.
 //process.env.MONGODB_URI 就是database connection URL  process.env.MONGODB_URI
-mongodb.MongoClient.connect(process.env.MONGODB_URI, function (err, database) {
+mongodb.MongoClient.connect(process.env.MONGODB_URI||'mongodb://localhost:27017/meanContact', function (err, database) {
   if (err) {
     console.log(err);
     process.exit(1);

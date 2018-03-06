@@ -22,7 +22,7 @@ export class ContactListComponent implements OnInit {
 
 //When the application is initialized, ngOnInit() is called
   ngOnInit() {
-    //初始化时use contactService to retrieve提取全部联系人 from the API server
+    //初始化时就发送GET请求，use contactService to retrieve提取全部联系人 from the API server
      this.contactService
       .getContacts()
       //Once the contact list is retrieved, it is stored into a local copy of the contact list
